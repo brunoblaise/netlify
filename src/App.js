@@ -25,10 +25,8 @@ function App() {
   return (
     <Router>
     <>
- 
- <Login />
-
- <Route path="/home" exact component={Class} />
+ <Route path="/" exact component={Login} /> 
+ <Route path="/home" exact component={Class} /> 
  <Route path="/home/s1" exact component={Bodys1} />
 
  <Route path="/home/s2" exact component={Bodys2} />
