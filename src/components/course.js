@@ -4,7 +4,7 @@ import axios from 'axios'
 
 export const S1 = newCourseS1=>{
     return axios
-    .post('/teacher/s1',{
+    .post('https://aqueous-mesa-43272.herokuapp.com/teacher/s1',{
        author: newCourseS1.author,
        syllabus: newCourseS1.syllabus,
        body:newCourseS1.body,
@@ -18,7 +18,7 @@ export const S1 = newCourseS1=>{
    
     export const S2 = newCourseS2=>{
        return axios
-       .post('/teacher/s2',{
+       .post('https://aqueous-mesa-43272.herokuapp.com/teacher/s2',{
           author: newCourseS2.author,
           syllabus: newCourseS2.syllabus,
           body:newCourseS2.body,
@@ -33,7 +33,7 @@ export const S1 = newCourseS1=>{
    
        export const S3 =newCourseS3=>{
            return axios
-           .post('/teacher/s3',{
+           .post('https://aqueous-mesa-43272.herokuapp.com/teacher/s3',{
               author:newCourseS3.author,
               syllabus: newCourseS3.syllabus,
               body:newCourseS3.body,
@@ -49,7 +49,7 @@ export const S1 = newCourseS1=>{
 
 export const S5 = newCourseS1=>{
     return axios
-    .post('/student/s1',{
+    .post('https://aqueous-mesa-43272.herokuapp.com/student/s1',{
        name: newCourseS1.name,
       day: newCourseS1.day,
       hour:newCourseS1.hour,
@@ -62,7 +62,7 @@ export const S5 = newCourseS1=>{
    
     export const S4 = newCourseS2=>{
        return axios
-       .post('/answer/answer',{
+       .post('https://aqueous-mesa-43272.herokuapp.com/answer/answer',{
            name: newCourseS2.name,
            clas:newCourseS2.clas,
            sub:newCourseS2.sub,
@@ -75,7 +75,7 @@ export const S5 = newCourseS1=>{
    
        export const S6 = newCourseS2=>{
         return axios
-        .post('/answer/answ',{
+        .post('https://aqueous-mesa-43272.herokuapp.com/answer/answ',{
             name: newCourseS2.name,
             hour:newCourseS2.hour,
      

@@ -8,7 +8,7 @@ import Body from './body';
 const Bodys2 = () => {
     const [lessons, setLessons] = useState([]);
 useEffect( ()=>{
-axios.get('/teacher/s2').then(res =>{
+axios.get('https://aqueous-mesa-43272.herokuapp.com/teacher/s2').then(res =>{
 
   setLessons(res.data.data.results)
  

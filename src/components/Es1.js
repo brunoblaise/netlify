@@ -6,7 +6,7 @@ function Es1({match}) {
     const [lesson, setLesson] = useState({});
   
     useEffect( ()=>{
-    axios.get(`/teacher/s1/${match.params.id}`).then(res =>{
+    axios.get(`https://aqueous-mesa-43272.herokuapp.com/teacher/s1/${match.params.id}`).then(res =>{
       setLesson(res.data.data.results)
     })
     }, [])
