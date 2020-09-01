@@ -26,8 +26,8 @@ function App() {
     <Router>
     <>
  
- <Route path="/" exact component={Login} />
- 
+ <Login />
+
  <Route path="/home" exact component={Class} />
  <Route path="/home/s1" exact component={Bodys1} />
 
